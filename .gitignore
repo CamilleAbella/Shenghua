@@ -1,5 +1,8 @@
-token.json
 node_modules
-.vscode
-.idea
+.env
+dist
 data
+.idea
+.vscode
+package-lock.json
+yarn.lock

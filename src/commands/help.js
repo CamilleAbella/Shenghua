@@ -1,8 +1,8 @@
 const { stripIndents } = require("common-tags")
-const db = require("../db.js")
+const db = require("../../db.js")
 const { Command } = require("discord-akairo")
 const { MessageEmbed } = require("discord.js")
-const utils = require("../utils")
+const utils = require("../../utils")
 
 class HelpCommand extends Command {
   constructor() {

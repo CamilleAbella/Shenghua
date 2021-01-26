@@ -4,7 +4,7 @@ const dayjs = require("dayjs")
 const relativeTime = require("dayjs/plugin/relativeTime")
 dayjs.locale("fr")
 dayjs.extend(relativeTime)
-const utils = require("../utils")
+const utils = require("../../utils")
 
 const filterLevels = {
   DISABLED: "Off",

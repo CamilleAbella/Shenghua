@@ -1,4 +1,4 @@
-const db = require("../db.js")
+const db = require("../../db.js")
 const { Command } = require("discord-akairo")
 
 module.exports = class extends Command {
